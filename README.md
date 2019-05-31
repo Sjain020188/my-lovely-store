@@ -5,6 +5,8 @@ Fake Users API
 
 It's a e-commerce website built in Django.
 
+![Alt text](screen.png "Screenshot of webpage")
+
 ## Steps to get started
 
 - Fork the repository
