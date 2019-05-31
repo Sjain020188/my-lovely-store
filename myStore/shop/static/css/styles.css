@@ -12,9 +12,33 @@
   font-size: 20px;
   color: #999;
 }
-blog-main {
+.blog-main {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.info_header {
+  background-color: #fa8072 !important;
+  margin-top: 20px;
+}
+
+.product_name {
+  color: #dc143c;
+  font-size: 20px;
+}
+
+.list-group-item {
+  color: #fa8072 !important;
+}
+
+.product_name:hover {
+  color: #fa8072;
+  font-size: 20px;
+}
+
+.product_category {
+  color: #fa8072;
+  font-size: 20px;
 }
 
 .card {
@@ -23,14 +47,40 @@ blog-main {
 .cart {
   width: 100%;
   margin: 50px;
+  margin: 20px;
 }
 
-.add_to_cart {
+.btn {
   margin: 10px;
+  background-color: #fa8072 !important;
 }
 
 .cart_img {
   width: 120px;
+}
+
+.item_row td {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.total {
+}
+
+.cart thead th {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+.cart thead,
+.total {
+  background-color: #fa8072;
+  padding: 20px;
+  color: #fff;
+  margin: 40px 20px 20px 20px;
+  text-align: center;
 }
 /* Sidebar modules for boxing content */
 .sidebar-module {

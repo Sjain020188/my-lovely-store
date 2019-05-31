@@ -19,6 +19,7 @@ from django.conf.urls import url
 from django.conf import settings
 from django.conf.urls.static import static
 
+
 app_name = 'shop'
 urlpatterns = [
     url(r'^$', views.product_list, name='product_list'),
@@ -27,8 +28,16 @@ urlpatterns = [
     url(r'^(?P<id>\d+)/(?P<slug>[-\w]+)/$',
         views.product_detail, name='product_detail'),
 
+
 ]
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,
                           document_root=settings.MEDIA_ROOT)
+
+# if settings.DEBUG:
+#     urlpatterns += patterns('',
+#                             url(r'^media/(?P<path>.*)$',
+#                                 'django.views.static.serve',
+#                                 {'document_root': settings.MEDIA_ROOT, }),
+#                             )
