@@ -1,7 +1,7 @@
 ## My Lovely Store
 
 This project is created during my time at Code Chrysalis when I learnt python on my own.
-Fake Users API
+
 
 It's a e-commerce website built in Django.
 
